@@ -1,0 +1,6 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE persons (id integer primary key, gender text, age integer, head_height real, leg_height real, shoulders_hips real);
+INSERT INTO persons VALUES(1,'Male',19,5.6472620776014910148,45.355049724759957997,1.4354818199878933704);
+INSERT INTO persons VALUES(2,'Male',23,6.6065156949586238965,47.993830836462223034,1.1665610315634880045);
+COMMIT;
